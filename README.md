@@ -13,14 +13,25 @@ npm install --save ionic-react-header-collapse
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import MyComponent from 'ionic-react-header-collapse'
-import 'ionic-react-header-collapse/dist/index.css'
+import { UseIonHeaderCollapse, useIonHeaderCollapse } from 'ionic-react-header-collapse';
 
 class Example extends Component {
+  const { ref } = useIonHeaderCollapse({} as UseIonHeaderCollapse);
   render() {
-    return <MyComponent />
+    return (
+      <IonPage>
+        <IonHeader ref={ref}>
+          <IonToolbar>
+            <IonTitle>Ionic header</IonTitle>
+          </IonToolbar>
+        </IonHeader>
+        <IonContent fullscreen>
+          ...
+        </IonContent>
+      </IonPage>
+      );
   }
 }
 ```
