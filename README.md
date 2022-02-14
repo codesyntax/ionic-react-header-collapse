@@ -4,6 +4,12 @@
 
 [![NPM](https://img.shields.io/npm/v/ionic-react-header-collapse.svg)](https://www.npmjs.com/package/ionic-react-header-collapse) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+
+
+<img src="./example/ios_demo.gif" width="40%">
+<img src="./example/android_demo.gif" width="40%">
+
+
 ## Install
 
 ```bash
@@ -17,7 +23,7 @@ import React, { Component } from 'react';
 
 import { UseIonHeaderCollapse, useIonHeaderCollapse } from 'ionic-react-header-collapse';
 
-class Example extends Component {
+const Home: React.FC = () => {
   const { ref } = useIonHeaderCollapse({} as UseIonHeaderCollapse);
   render() {
     return (
