@@ -2,7 +2,7 @@
 
 > Easy to use hook to handle collapse effect on scroll for IonHeader component in React Ionic
 
-[![NPM](https://img.shields.io/npm/v/ionic-react-header-collapse.svg)](https://www.npmjs.com/package/ionic-react-header-collapse) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codesyntaxionic-react-header-collapse.svg)](https://www.npmjs.com/package/@codesyntax/ionic-react-header-collapse) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
 IOS/Android:
