@@ -1,8 +1,10 @@
 # ionic-react-header-collapse
 
-> Easy to use hook to handle collapse effect on scroll for IonHeader component in React Ionic
+### Easy to use hook to handle collapse effect on scroll for IonHeader component in React Ionic
 
-[![NPM](https://img.shields.io/npm/v/@codesyntaxionic-react-header-collapse.svg)](https://www.npmjs.com/package/@codesyntax/ionic-react-header-collapse) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+> Currently the package is in beta phase. Any issue or PR will be appreciated ;)
+
+[![NPM](https://img.shields.io/npm/v/@codesyntax/ionic-react-header-collapse.svg)](https://www.npmjs.com/package/@codesyntax/ionic-react-header-collapse) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
 IOS/Android:
@@ -14,7 +16,7 @@ IOS/Android:
 ## Install
 
 ```bash
-npm install --save ionic-react-header-collapse
+npm install --save @codesyntax/ionic-react-header-collapse
 ```
 
 ## Usage
@@ -22,7 +24,7 @@ npm install --save ionic-react-header-collapse
 ```tsx
 import React, { Component } from 'react';
 
-import { UseIonHeaderCollapse, useIonHeaderCollapse } from 'ionic-react-header-collapse';
+import { UseIonHeaderCollapse, useIonHeaderCollapse } from '@codesyntax/ionic-react-header-collapse';
 
 const Home: React.FC = () => {
   const { ref } = useIonHeaderCollapse({} as UseIonHeaderCollapse);
@@ -43,6 +45,7 @@ const Home: React.FC = () => {
 }
 ```
 
+
 ## License
 
-MIT © [codesyntax](https://github.com/codesyntax)
+MIT © [CodeSyntax](https://github.com/codesyntax)
