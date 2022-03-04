@@ -1,6 +1,6 @@
 import { IonContent, IonHeader, IonItem, IonLabel, IonList, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import './Home.css';
-import { UseIonHeaderCollapse, useIonHeaderCollapse } from 'ionic-react-header-collapse';
+import { UseIonHeaderCollapse, useIonHeaderCollapse } from '@codesyntax/ionic-react-header-collapse';
 
 const Home: React.FC = () => {
   const { ref } = useIonHeaderCollapse({} as UseIonHeaderCollapse);
