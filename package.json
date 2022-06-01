@@ -1,6 +1,6 @@
 {
   "name": "@codesyntax/ionic-react-header-collapse",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Easy to use hook to handle collapse effect on scroll for IonHeader component in React Ionic",
   "author": "codesyntax",
   "license": "MIT",
@@ -56,7 +56,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "release-it": "^14.12.5",
+    "release-it": "^14.14.3",
     "typescript": "^3.7.5"
   },
   "files": [
